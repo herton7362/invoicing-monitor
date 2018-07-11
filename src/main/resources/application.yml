@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 1010
+  context-path:
+service:
+  showAllEntities: false
+---
+spring:
+  profiles: dev
+---
+spring:
+  profiles: production
